@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+#logo {
+    height: 85%;
+    margin: 10px;
+}
+
+#bloc_logo p {
+    font-family: 'roboto', sans-serif;
+    position: absolute;
+    margin: 74px;
+    left: 60px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 30px;
+}
+
+.menu li {
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    padding: 12px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: yellow;
+    border-bottom: 4px solid yellowgreen;
+    padding: 2px;
+}
+
+.hidden {
+    display: none;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.photos_slider {
+    width: 100%;
+    position: relative;
+}
+
+#boutons_slider {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 215px;
+    margin: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#boutongauche {
+    margin-left: 12px;
+}
+
+#boutondroite {
+    margin-right: 12px;
+}
+
+.boutons .fas {
+    font-size: 34px;
+    color: black;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
