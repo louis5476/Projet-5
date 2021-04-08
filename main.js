@@ -1,0 +1,1 @@
+let photo = new Slider()

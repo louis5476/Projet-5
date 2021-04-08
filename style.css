@@ -1,0 +1,198 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: burlywood;
+    position: fixed; 
+    z-index: 1000;
+}
+
+footer {
+    background-color: burlywood;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+#logo {
+    height: 85%;
+    margin: 10px;
+}
+
+#bloc_logo p {
+    font-family: fantasy;
+    position: absolute;
+    margin: 74px;
+    left: 170px;
+    font-weight: bold;
+    top: -45px;
+    font-size: 45px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 30px;
+}
+
+.menu li {
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+    padding: 12px;
+    width: 130px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: rgb(189, 140, 50);
+    border-bottom: 4px solid rgb(253, 226, 74);
+    padding: 2px;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.arriere {
+    filter: brightness(0.5);
+    width: 100%;
+    height: 700px;
+}
+
+#presentation {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#presentation h1 {
+    position: absolute;
+    top: 250px; 
+    width: 100%; 
+    height: 400px; 
+    z-index: 2;
+    font-size: 400%;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#presentation p {
+    position: absolute;
+    top: 350px; 
+    width: 100%; 
+    height: 500px; 
+    z-index: 2;
+    font-size: 215%;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#presentation a {
+    border: solid burlywood;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+    padding-top: 15px;
+    font-size: 180%;
+    height: 50px;
+    width: 200px;
+    z-index: 10;
+    top: 485px;
+    position: absolute;
+    font-family: "Gill Sans", sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    font-family: "Gill Sans", sans-serif;
+    color: burlywood;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#slider {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.photos_slider {
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+    height: 350px;
+}
+
+#boutons_slider {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 155px;
+    margin: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#boutongauche {
+    margin-left: 12px;
+}
+
+#boutondroite {
+    margin-right: 12px;
+}
+
+.boutons .fas {
+    font-size: 34px;
+    color: black;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.legende {
+    font-size: 22px;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
